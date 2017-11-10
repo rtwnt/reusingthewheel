@@ -5,3 +5,4 @@ theme = "mainroad"
 
 [Params.widgets]
     search = true
+    recent_articles = true
