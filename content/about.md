@@ -5,6 +5,7 @@ type: page
 menu: "main"
 weight: 100
 date: 2015-12-04T20:17:22+00:00
+disable_comments: true
 
 ---
 My name is Piotr Rusin. I majored in civil engineering at Poznan University of Technology, but I&#8217;m more interested in programming, both as a hobby and as a career choice. I&#8217;m not yet a professional programmer, but I&#8217;m working on becoming one.
