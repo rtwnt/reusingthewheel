@@ -12,9 +12,9 @@ tags:
 
 ---
 Since the introduction of my spam-lists library on this blog, I made some progress in its development.
-  
+
 I reorganized the library a bit, changed the inheritance hierarchy of exception classes, fixed some errors and published the package on PyPI. In this post, I&#8217;m going to describe the changes and explain my reasoning behind them.
-  
+
 <!--more-->
 
 ## Splitting spam\_lists.service\_models module
@@ -62,35 +62,22 @@ At some moment, I decided to replace inheritance with composition for these clas
 
 At this moment, the code of the method looked like this:
 
-[code lang=python]
-  
-def \_\_lt\_\_(self, other):
-      
-''' Check if the other is smaller
+```python
+def __lt__(self, other):
+    ''' Check if the other is smaller
+    This method is necessary for sorting and search
+    algorithms using bisect_right. It handles TypeError
+    by returning NotImplemented
 
-This method is necessary for sorting and search
-      
-algorithms using bisect_right. It handles TypeError
-      
-by returning NotImplemented
-
-:param other: a value to be compared
-      
-:returns: result of comparison as implemented in base
-      
-classes, or NotImplemented
-      
-'''
-      
-try:
-          
-return self.value < other
-      
-except TypeError:
-          
-return NotImplemented
-  
-[/code]
+    :param other: a value to be compared
+    :returns: result of comparison as implemented in base
+        classes, or NotImplemented
+    '''
+    try:
+        return self.value < other
+    except TypeError:
+        return NotImplemented
+```
 
 I also had to fix an error in its original implementation: it compared `self.value` to the `other` object, not to `other.value`.
 
@@ -109,44 +96,28 @@ As you can see in the code, my method handled `TypeError` raised by the comparis
 I fixed this compatibility error by modifying the code like this:
 
 [code lang=python]
-  
-def \_\_lt\_\_(self, other):
-      
-''' Check if the other is smaller
+```python
+def __lt__(self, other):
+    ''' Check if the other is smaller.
 
-This method is necessary for sorting and search
-      
-algorithms using bisect_right.
+    This method is necessary for sorting and search
+    algorithms using bisect_right.
 
-:param other: a value to be compared
-      
-:returns: result of comparison between value attributes of
-      
-both this object and the other, or of comparison between
-      
-their unicode string representations.
-
-In case of the other not having necessary attributes,
-      
-NotImplemented constant is returned.
-      
-'''
-      
-try:
-          
-try:
-              
-return self.value < other.value
-          
-except TypeError:
-              
-return self.to\_unicode() < other.to\_unicode()
-      
-except AttributeError:
-          
-return NotImplemented
-
-[/code]
+    :param other: a value to be compared
+    :returns: result of comparison between value attributes of
+        both this object and the other, or of comparison between
+        their unicode string representations.
+        In case of the other not having necessary attributes,
+        NotImplemented constant is returned.
+    '''
+    try:
+        try:
+            return self.value < other.value
+        except TypeError:
+            return self.to_unicode() < other.to_unicode()
+    except AttributeError:
+        return NotImplemented
+```
 
 Still, the behaviour of the method was inconsistent between the versions: when using Python 2 to execute the comparison of an object of a `Hostname` type to an object of `IPv4Address` type, the `Name.__lt__(other)` method of `Hostname.value` returned `NotImplemented` value, and Python interpreter handled the comparison. However, when using Python 3, the comparison operation raised `TypeError` to be handled by my method.
 
@@ -154,67 +125,40 @@ Returning `NotImplemented` constant in response to an `AttributeError` being rai
 
 I also noticed the docstring of my method was misleading, because its first line sounded like the method was responsible for &#8220;other < self&#8221; comparison, not &#8220;self < other&#8221;. I fixed it, too, and the current code of the method looks like this:
 
-[code lang=python]
-  
-def \_\_lt\_\_(self, other):
-      
-''' Check if self is less than the other
+```python
+def __lt__(self, other):
+    ''' Check if self is less than the other
 
-This method is necessary for sorting and search
-      
-algorithms using bisect_right.
+    This method is necessary for sorting and search
+    algorithms using bisect_right.
 
-:param other: a value to be compared
-      
-:returns: result of comparison between value
-      
-attributes of both this object and the other,
-      
-or of comparison between
-      
-their unicode string representations.
-      
-:raises TypeError: in case of the other not
-      
-having either value or to_unicode attributes.
-      
-'''
-      
-try:
-          
-try:
-              
-result = self.value.\_\_lt\_\_(other.value)
-          
-except TypeError:
-              
-return self.\_compare\_strings(other)
-          
-else:
-              
-if result == NotImplemented:
-                  
-result = self.\_compare\_strings(other)
-              
-return result
-      
-except AttributeError:
-          
-msg = 'Unorderable types: {}() < {}()'.format(
-              
-self.\_\_class\_\_.\_\_name\_\_,
-              
-other.\_\_class\_\_.\_\_name\_\_
-          
-)
-          
-raise TypeError(msg)
+    :param other: a value to be compared
+    :returns: result of comparison between value
+        attributes of both this object and the other,
+        or of comparison between their unicode string
+        representations.
+    :raises TypeError: in case of the other not having
+        either value or to_unicode attributes.
+    '''
+    try:
+        try:
+            result = self.value.__lt__(other.value)
+        except TypeError:
+            return self._compare_strings(other)
+    else:
+        if result == NotImplemented:
+            result = self._compare_strings(other)
+        return result
+    except AttributeError:
+        msg = 'Unorderable types: {}() < {}()'.format(
+            self.__class__.__name__,
+            other.__class__.__name__
+        )
+        raise TypeError(msg)
 
-def \_compare\_strings(self, other):
-      
-return self.to\_unicode() < other.to\_unicode()
-
-[/code]
+def _compare_strings(self, other):
+    return self.to_unicode() < other.to_unicode()
+```
 
 ## Releasing the project
 

@@ -34,7 +34,7 @@ I designed the front-end according to rules of responsive web design. Initial CS
 
 Here are examples of the current result:<figure style="width: 320px" class="wp-caption alignnone">
 
-[<img src="http://i.imgur.com/RuRBETe.png" width="320" height="568" alt="The main page on a mobile screen..." class="size-medium" />][2]<figcaption class="wp-caption-text">The main page on a mobile screen&#8230;</figcaption></figure> <figure style="width: 999px" class="wp-caption alignnone">[<img src="http://i.imgur.com/P6xYoWF.png" width="999" height="682" alt="... and on a desktop screen." class="size-medium" />][3]<figcaption class="wp-caption-text">&#8230; and on a desktop screen.</figcaption></figure> 
+[<img src="http://i.imgur.com/RuRBETe.png" width="320" height="568" alt="The main page on a mobile screen..." class="size-medium" />][2]<figcaption class="wp-caption-text">The main page on a mobile screen&#8230;</figcaption></figure> <figure style="width: 999px" class="wp-caption alignnone">[<img src="http://i.imgur.com/P6xYoWF.png" width="999" height="682" alt="... and on a desktop screen." class="size-medium" />][3]<figcaption class="wp-caption-text">&#8230; and on a desktop screen.</figcaption></figure>
 
 A full gallery is available [here][4].
 

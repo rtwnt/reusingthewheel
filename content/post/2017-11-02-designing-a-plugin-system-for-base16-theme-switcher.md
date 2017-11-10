@@ -67,7 +67,7 @@ I decided to modify the solution: instead of passing a theme switcher object to 
 
 This way I avoid giving plugins too much access to things they shouldn&#8217;t alter, having the theme switcher object in an invalid state and having core application provide defaults for pluggable dependencies.
 
-Of course, Python is a dynamic language and the limits imposed by an interface of an object aren&#8217;t as rigid as those imposed by classes and formal interface types in statically typed languages with access modifiers. For example, a developer of a plugin could easily access an attribute of the builder that is conventionally marked as &#8220;protected&#8221; and modify or replace it, or they could replace the `build` method with an alternative one. Python is flexible in that regard, but it doesn&#8217;t mean having an object provide a set of well documented methods designed for intended use cases isn&#8217;t important. 
+Of course, Python is a dynamic language and the limits imposed by an interface of an object aren&#8217;t as rigid as those imposed by classes and formal interface types in statically typed languages with access modifiers. For example, a developer of a plugin could easily access an attribute of the builder that is conventionally marked as &#8220;protected&#8221; and modify or replace it, or they could replace the `build` method with an alternative one. Python is flexible in that regard, but it doesn&#8217;t mean having an object provide a set of well documented methods designed for intended use cases isn&#8217;t important.
 
  [1]: https://github.com/piotr-rusin/base16-theme-switcher
  [2]: https://reusingthewheel.wordpress.com/2017/10/22/a-new-project-base16-theme-switcher/

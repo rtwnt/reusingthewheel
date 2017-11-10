@@ -12,7 +12,7 @@ tags:
 
 ---
 The first project I would like to present on this blog is spam-lists ([GitHub][1]): a library for querying custom and third party web address blacklists and whitelists.
-  
+
 <!--more-->
 
 The first service supported by the project is [SURBL][2] &#8211; a DNSBL service listing spam hostnames and IP addresses. DNSBLs are queried by performing DNS queries for a domain consisting of the queried value (or a value derived from it, in case of IP addresses) and a proper suffix associated with the service.
