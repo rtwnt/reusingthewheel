@@ -2,6 +2,7 @@ baseURL = "https://piotr-rusin.github.io"
 languageCode = "en-us"
 title = "Reusing the wheel"
 theme = "mainroad"
+disqusShortname = "piotr-rusin.github.io"
 
 [[menu.main]]
     name = "Posts"
