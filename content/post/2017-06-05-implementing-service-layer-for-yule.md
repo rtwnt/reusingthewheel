@@ -124,7 +124,7 @@ I decided to abandon this idea and implement the operations in a controller, for
 
 As for other operations that will be parts of the business logic of my application: I also decided to implement them first in controllers. This way, I will separate two tasks: implementing features and refactoring their code into separate service layer components, and I will be able to complete them in separate steps.
 
- [1]: https://reusingthewheel.wordpress.com/2017/05/16/a-new-blog-engine-project/
+ [1]: /2017/05/a-new-blog-engine-project/
  [2]: https://stackoverflow.com/questions/22963352/difference-between-repository-and-service-layer
  [3]: https://github.com/piotr-rusin/yule/blob/1284de5285a8fb6d30531d5fc26d20231a851679/src/main/java/com/github/piotr_rusin/yule/repository/ArticleRepository.java
  [4]: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods

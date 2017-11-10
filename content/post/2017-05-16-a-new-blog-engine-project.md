@@ -60,8 +60,8 @@ The validator class is used by my custom constraint annotation: [`StatusConstrai
 
 I think that&#8217;s enough for this post. In the next one, I will describe the service layer of the project.
 
- [1]: https://reusingthewheel.wordpress.com/2016/12/06/a-phpsymfony-blog-engine/
- [2]: https://reusingthewheel.wordpress.com/category/projects/url-shortener/
+ [1]: /2016/12/a-php-symfony-blog-engine/
+ [2]: /categories/url-shortener/
  [3]: https://projects.spring.io/spring-framework/
  [4]: http://projects.spring.io/spring-boot/
  [5]: http://stackoverflow.com/a/35996408

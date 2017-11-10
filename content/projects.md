@@ -48,11 +48,11 @@ A single-user blog engine with support for external configuration and schedulabl
 
  [1]: https://github.com/piotr-rusin?tab=repositories
  [2]: https://github.com/piotr-rusin/spam-lists
- [3]: https://reusingthewheel.wordpress.com/category/project-descriptions/spam-lists/
+ [3]: /categories/spam-lists/
  [4]: https://url-shortener.reusingthewheel.tk/
  [5]: https://github.com/piotr-rusin/url-shortener
- [6]: https://reusingthewheel.wordpress.com/category/project-descriptions/url-shortener/
+ [6]: /categories/url-shortener/
  [7]: https://github.com/piotr-rusin/blog-engine
- [8]: https://reusingthewheel.wordpress.com/category/project-descriptions/blog-engine/
+ [8]: /categories/blog-engine/
  [9]: https://github.com/piotr-rusin/yule
- [10]: https://reusingthewheel.wordpress.com/category/projects/yule/
+ [10]: /categories/yule/
