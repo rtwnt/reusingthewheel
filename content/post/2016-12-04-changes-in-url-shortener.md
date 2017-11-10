@@ -32,11 +32,10 @@ In this post, I&#8217;m going to describe some of them.
 
 I designed the front-end according to rules of responsive web design. Initial CSS styles ensure it looks good on mobile screens, while the styles specified in media queries override the initial styles to adjust the front-end to larger displays.
 
-Here are examples of the current result:<figure style="width: 320px" class="wp-caption alignnone">
+Here are examples of the current result: the main page [on a mobile][mob] and [on a desktop screen][desk]. A full gallery is available [here][4].
 
-[<img src="http://i.imgur.com/RuRBETe.png" width="320" height="568" alt="The main page on a mobile screen..." class="size-medium" />][2]<figcaption class="wp-caption-text">The main page on a mobile screen&#8230;</figcaption></figure> <figure style="width: 999px" class="wp-caption alignnone">[<img src="http://i.imgur.com/P6xYoWF.png" width="999" height="682" alt="... and on a desktop screen." class="size-medium" />][3]<figcaption class="wp-caption-text">&#8230; and on a desktop screen.</figcaption></figure>
-
-A full gallery is available [here][4].
+[mob]: http://i.imgur.com/RuRBETe.png
+[desk]: http://i.imgur.com/P6xYoWF.png
 
 ## New classes for representing, creating and converting aliases
 
