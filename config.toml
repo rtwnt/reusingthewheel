@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Reusing the wheel"
 theme = "mainroad"
 
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    url = "/"
+
 [Params]
     readmore = true
 
