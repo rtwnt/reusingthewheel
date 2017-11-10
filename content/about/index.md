@@ -2,6 +2,7 @@
 title: About
 author: piotr
 type: page
+menu: "main"
 date: 2015-12-04T20:17:22+00:00
 
 ---
