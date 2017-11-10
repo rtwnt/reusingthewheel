@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Reusing the wheel"
 theme = "mainroad"
 
+[Params]
+    readmore = true
+
 [Params.widgets]
     search = true
     recent_articles = true
