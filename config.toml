@@ -9,3 +9,4 @@ theme = "mainroad"
     recent_articles_num = 5
     categories = true
     tags = true
+    social_github = "piotr-rusin"
