@@ -5,6 +5,9 @@ theme = "mainroad"
 disqusShortname = "piotr-rusin.github.io"
 googleAnalytics = "UA-109495807-1"
 
+[permalinks]
+  post = "/:year/:month/:title/"
+
 [[menu.main]]
     name = "Posts"
     weight = -100

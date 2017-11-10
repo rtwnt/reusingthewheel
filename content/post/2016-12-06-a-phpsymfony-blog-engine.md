@@ -3,7 +3,6 @@ title: A PHP/Symfony blog engine
 author: piotr
 type: post
 date: 2016-12-06T13:33:10+00:00
-url: /index.php/2016/12/06/a-phpsymfony-blog-engine/
 categories:
   - blog-engine
   - Projects

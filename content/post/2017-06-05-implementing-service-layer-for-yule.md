@@ -3,7 +3,6 @@ title: Implementing service layer for Yule
 author: piotr
 type: post
 date: 2017-06-05T09:17:41+00:00
-url: /index.php/2017/06/05/implementing-service-layer-for-yule/
 categories:
   - Projects
   - yule

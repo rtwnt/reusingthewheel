@@ -3,7 +3,6 @@ title: Introducing my URL shortener
 author: piotr
 type: post
 date: 2016-08-05T13:18:43+00:00
-url: /index.php/2016/08/05/introducing-my-url-shortener/
 categories:
   - Projects
 tags:

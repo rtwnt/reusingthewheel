@@ -3,7 +3,6 @@ title: Spam-lists – a host blacklist/whitelist library
 author: piotr
 type: post
 date: 2016-06-16T15:59:43+00:00
-url: /index.php/2016/06/16/spam-lists-a-host-blacklistwhitelist-library/
 categories:
   - Projects
 tags:

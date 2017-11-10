@@ -3,7 +3,6 @@ title: Designing a plugin system for base16-theme-switcher
 author: piotr
 type: post
 date: 2017-11-02T09:22:29+00:00
-url: /index.php/2017/11/02/designing-a-plugin-system-for-base16-theme-switcher/
 categories:
   - base16-theme-switcher
   - Projects
