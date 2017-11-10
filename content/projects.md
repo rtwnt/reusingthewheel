@@ -2,6 +2,7 @@
 title: Projects
 author: piotr
 type: page
+menu: "main"
 date: 2016-12-31T18:39:28+00:00
 
 ---
@@ -14,7 +15,7 @@ All projects presented here (and some not presented) are publicly available in [
 A library providing clients for services recognizing web addresses of spam sources (SURBL, Google Safe Browsing API, etc.) and classes of objects representing custom host lists.
 
 [Spam-lists on GitHub][2]
-  
+
 [Articles about the project][3]
 
 ## url-shortener
@@ -22,9 +23,9 @@ A library providing clients for services recognizing web addresses of spam sourc
 An application for providing shorter aliases for given URLs. It uses my spam-lists library to prevent shortening of URLs recognized as spam or to warn users that an already existing shortened URL has been recognized as spam. The application also handles homoglyphs &#8211; characters and sequences of characters similar to each other &#8211; by internally treating them as identical so that its users can be spared inconvenience resulting from mistyping or misremembering shortened URLs with potentially confusing characters.
 
 [Project demo][4]
-  
+
 [Url-shortener on GitHub][5]
-  
+
 [Articles about the project][6]
 
 ## blog-engine
@@ -32,7 +33,7 @@ An application for providing shorter aliases for given URLs. It uses my spam-lis
 A blog engine application designed with support for user registration, commenting and user roles. Largely inspired by WordPress.
 
 [Blog-engine on GitHub][7]
-  
+
 [Articles about the project][8]
 
 ## yule
@@ -40,7 +41,7 @@ A blog engine application designed with support for user registration, commentin
 A single-user blog engine with support for external configuration and schedulable auto-publication of blog articles (both posts and pages).
 
 [Yule on GitHub][9]
-  
+
 [Articles about the project][10]
 
  [1]: https://github.com/piotr-rusin?tab=repositories
