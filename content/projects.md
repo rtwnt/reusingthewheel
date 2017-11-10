@@ -4,7 +4,6 @@ author: piotr
 type: page
 menu: "main"
 weight: 10
-date: 2016-12-31T18:39:28+00:00
 disable_comments: true
 
 ---
