@@ -7,3 +7,4 @@ theme = "mainroad"
     search = true
     recent_articles = true
     recent_articles_num = 5
+    categories = true
