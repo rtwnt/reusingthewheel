@@ -5,7 +5,7 @@ theme = "mainroad"
 
 [[menu.main]]
     name = "Posts"
-    weight = 100
+    weight = -100
     url = "/"
 
 [Params]
