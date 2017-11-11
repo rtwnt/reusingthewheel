@@ -94,7 +94,6 @@ As you can see in the code, my method handled `TypeError` raised by the comparis
 
 I fixed this compatibility error by modifying the code like this:
 
-[code lang=python]
 ```python
 def __lt__(self, other):
     ''' Check if the other is smaller.
