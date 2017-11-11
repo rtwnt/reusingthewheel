@@ -17,7 +17,6 @@ googleAnalytics = "UA-109495807-1"
     readmore = true
 
 [Params.widgets]
-    search = true
     recent_articles = true
     recent_articles_num = 5
     categories = true
