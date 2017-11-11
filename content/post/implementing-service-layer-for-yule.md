@@ -23,7 +23,7 @@ This post covers these changes and some problems I encountered during testing.
 
 ## Repository layer
 
-Although in the previous post I promised the next one will be about the service layer, and [repositories constitute their own layer][2], I decided to cover it here as I didn&#8217;t do it before. Plus, the repository layer is used by the service layer, and will also be used by the controllers, so it needs to be touched upon.
+Although in the previous post I promised the next one would be about the service layer, and [repositories constitute their own layer][2], I decided to cover it here as I didn&#8217;t do it before. Plus, the repository layer is used by the service layer, and will also be used by the controllers, so it needs to be touched upon.
 
 In my project, this layer consists of only one interface (at least for now): [`ArticleRepository`][3]. It declares methods responsible for database queries and commands. It&#8217;s not accompanied by my own implementation of it because Spring Data is able to [generate beans implementing repository interfaces][4], and because I didn&#8217;t need to implement any custom behaviour that would have to be provided by a custom implementation of the interface.
 
