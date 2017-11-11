@@ -4,7 +4,6 @@ date: 2016-11-30T10:44:41+00:00
 categories:
   - Projects
   - spam-lists
-  - Release announcements
 tags:
   - Python 2
   - Python 3
