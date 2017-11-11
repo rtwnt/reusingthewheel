@@ -1,6 +1,5 @@
 ---
 title: A new blog engine project
-author: piotr
 type: post
 date: 2017-05-16T10:59:50+00:00
 categories:

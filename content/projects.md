@@ -1,6 +1,5 @@
 ---
 title: Projects
-author: piotr
 type: page
 menu: "main"
 weight: 10

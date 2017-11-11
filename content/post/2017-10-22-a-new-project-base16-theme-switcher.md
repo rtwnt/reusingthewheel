@@ -1,6 +1,5 @@
 ---
 title: 'A new project: base16-theme-switcher'
-author: piotr
 type: post
 date: 2017-10-22T14:39:20+00:00
 categories:

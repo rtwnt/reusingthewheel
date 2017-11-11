@@ -1,6 +1,5 @@
 ---
 title: 'Url-shortener: a demo and more refactoring'
-author: piotr
 type: post
 date: 2016-12-31T16:13:22+00:00
 categories:

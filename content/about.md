@@ -1,6 +1,5 @@
 ---
 title: About
-author: piotr
 type: page
 menu: "main"
 weight: 100
