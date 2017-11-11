@@ -1,6 +1,5 @@
 ---
 title: Projects
-type: page
 menu: "main"
 weight: 10
 disable_comments: true

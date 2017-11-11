@@ -1,6 +1,5 @@
 ---
 title: About
-type: page
 menu: "main"
 weight: 100
 disable_comments: true

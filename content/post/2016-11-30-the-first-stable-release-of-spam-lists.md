@@ -1,6 +1,5 @@
 ---
 title: The first stable release of spam-lists
-type: post
 date: 2016-11-30T10:44:41+00:00
 categories:
   - Projects

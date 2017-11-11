@@ -1,6 +1,5 @@
 ---
 title: A new blog engine project
-type: post
 date: 2017-05-16T10:59:50+00:00
 categories:
   - Projects

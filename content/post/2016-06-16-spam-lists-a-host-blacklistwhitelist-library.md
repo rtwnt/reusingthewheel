@@ -1,6 +1,5 @@
 ---
 title: Spam-lists – a host blacklist/whitelist library
-type: post
 date: 2016-06-16T15:59:43+00:00
 categories:
   - Projects

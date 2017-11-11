@@ -1,6 +1,5 @@
 ---
 title: Changes in url-shortener
-type: post
 date: 2016-12-04T16:09:24+00:00
 categories:
   - Projects
