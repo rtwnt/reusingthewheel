@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-$project_dir=$PWD
+project_dir=$PWD
 
 function push() {
   cd $1
