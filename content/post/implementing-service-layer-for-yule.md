@@ -7,10 +7,10 @@ categories:
 tags:
   - dependency injection
   - integration testing
-  - Java
-  - JPA
-  - Maven
-  - Spring
+  - java
+  - jpa
+  - maven
+  - spring
   - testing
   - unit testing
 

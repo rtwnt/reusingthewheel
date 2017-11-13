@@ -4,10 +4,10 @@ date: 2017-11-12T16:43:40+01:00
 categories:
   - Blog
 tags:
-  - Disqus
-  - Hugo
-  - Jekyll
-  - Pelican
+  - disqus
+  - hugo
+  - jekyll
+  - pelican
   - static website generator
 ---
 

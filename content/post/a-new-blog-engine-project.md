@@ -6,11 +6,11 @@ categories:
   - Yule
 tags:
   - blog-engine
-  - Hibernate
-  - Java
-  - Java Bean Validation
-  - JPA
-  - Spring
+  - hibernate
+  - java
+  - java bean validation
+  - jpa
+  - spring
 
 ---
 In [one of my previous posts][1] I described a blog engine I was developing. At the time, I had returned to it after a hiatus and I was convinced I would continue working on it. However, at the same time I was still more interested in developing my python-based [url-shortener project][2] and I also already planned moving on to other projects and technologies. As a result, I got bored of blog-engine again.

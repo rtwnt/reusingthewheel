@@ -5,12 +5,12 @@ categories:
   - Projects
   - Url-shortener
 tags:
-  - Flask
-  - Python 3
+  - flask
+  - python 3
   - spam-lists
-  - SQLAlchemy
+  - sqlalchemy
   - url-shortener
-  - WTForms
+  - wtforms
 
 ---
 URL addresses can be quite long, mainly because they often consist of path and query components, both containing a number of characters forming names of path segments and values of parameters (not necessarily meaningful to a human reader), or performing other functions. For that reason, they may be hard to type and memorize, or simply aesthetically unpleasing.

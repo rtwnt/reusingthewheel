@@ -5,7 +5,7 @@ categories:
   - Projects
   - Url-shortener
 tags:
-  - Python 3
+  - python 3
   - refactoring
   - single responsibility principle
   - url-shortener

@@ -5,8 +5,8 @@ categories:
   - Blog-engine
   - Projects
 tags:
-  - PHP
-  - Symfony
+  - php
+  - symfony
 url: /2016/12/a-php-symfony-blog-engine/
 
 ---

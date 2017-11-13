@@ -5,8 +5,8 @@ categories:
   - Projects
   - Spam-lists
 tags:
-  - Python 2
-  - Python 3
+  - python 2
+  - python 3
   - spam-lists
 
 ---
