@@ -3,7 +3,7 @@ title: The first stable release of spam-lists
 date: 2016-11-30T10:44:41+00:00
 categories:
   - Projects
-  - spam-lists
+  - Spam-lists
 tags:
   - Python 2
   - Python 3

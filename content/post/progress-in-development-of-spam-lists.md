@@ -3,7 +3,7 @@ title: Progress in development of spam-lists
 date: 2016-07-09T19:19:49+00:00
 categories:
   - Projects
-  - spam-lists
+  - Spam-lists
 tags:
   - Python 2
   - Python 3

@@ -2,7 +2,7 @@
 title: 'A new project: base16-theme-switcher'
 date: 2017-10-22T14:39:20+00:00
 categories:
-  - base16-theme-switcher
+  - Base16-theme-switcher
   - Projects
 tags:
   - bash

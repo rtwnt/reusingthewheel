@@ -3,7 +3,7 @@ title: A new blog engine project
 date: 2017-05-16T10:59:50+00:00
 categories:
   - Projects
-  - yule
+  - Yule
 tags:
   - blog-engine
   - Hibernate

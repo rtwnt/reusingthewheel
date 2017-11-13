@@ -3,7 +3,7 @@ title: Introducing my URL shortener
 date: 2016-08-05T13:18:43+00:00
 categories:
   - Projects
-  - url-shortener
+  - Url-shortener
 tags:
   - Flask
   - Python 3
