@@ -25,7 +25,7 @@ I felt like front end was more lacking and required more attention than the back
 For now, I made the following changes:
 
 * general improvements in styling and layout, achieved with a combination of custom styles and those provided by [the Bootstrap framework][3]
-* generalization of dialog windows and code responsible for handling interactions with them, so that they can now be reused for tasks other than deleting articles. For now, I reused them for implementing an operation allowing a user to cancel editing an article and return to the previous page of admin article table
+* generalization of dialog windows and JavaScript code responsible for handling interactions with them, so that they can now be reused for tasks other than deleting articles. For now, I reused them for implementing an operation allowing a user to cancel editing an article and return to the previous page of admin article table
 * updates in pagination on the index page: now it consists of “Previous” and “Next” buttons and of a field containing current page number and a total number of pages
 * updates in pagination of the admin article table, and adding a column sorting feature, both achieved with [Thymeleaf Spring Data Dialect][4].
 * adding support for rendering Markdown with [flexmark-java][5]
