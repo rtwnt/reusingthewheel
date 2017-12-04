@@ -32,7 +32,7 @@ For now, I made the following changes:
 * introducing new elements of service layer: [ArticleRepositoryUpdater][6] and [ArticleProvider][7] classes, and using them to reduce code complexity and repetition in controllers
 * some other changes to controllers, like introducing new model attributes and refactoring article table redirection code into a separate method. These changes were related to the ones visible in the front end: adding validation status related styles to forms and adding previously mentioned cancelling feature.
 
-Here are [some screenshots][8] of the front end of the current version.
+Here are [some screenshots][8] of the current version.
 
 ## What’s next?
 The current version is far from being final, so I’m going to improve its front end and back end and to add new features. For now I’d like to add a tag or taxonomy system and a capability to register users.
