@@ -23,6 +23,7 @@ I recently went back to developing [Yule][1] - my blog engine project based, amo
 I felt like front end was more lacking and required more attention than the back end, so I decided to focus on it first, modifying the latter only when the former required it. Nevertheless, I still made some back-end-only improvements.
 
 For now, I made the following changes:
+
 * general improvements in styling and layout, achieved with a combination of custom styles and those provided by [the Bootstrap framework][3]
 * generalization of dialog windows and code responsible for handling interactions with them, so that they can now be reused for tasks other than deleting articles. For now, I reused them for implementing an operation allowing a user to cancel editing an article and return to the previous page of admin article table
 * updates in pagination on the index page: now it consists of “Previous” and “Next” buttons and of a field containing current page number and a total number of pages
