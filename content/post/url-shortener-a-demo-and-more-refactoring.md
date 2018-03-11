@@ -2,13 +2,13 @@
 title: 'Url-shortener: a demo and more refactoring'
 date: 2016-12-31T16:13:22+00:00
 categories:
-  - Projects
+  - Development
+projects:
   - Url-shortener
 tags:
   - python 3
   - refactoring
   - single responsibility principle
-  - url-shortener
 
 ---
 A demo instance of my url-shortener project is now available here:

@@ -2,12 +2,12 @@
 title: Spam-lists – a host blacklist/whitelist library
 date: 2016-06-16T15:59:43+00:00
 categories:
-  - Projects
+  - Development
+projects:
   - Spam-lists
 tags:
   - python 2
   - python 3
-  - spam-lists
 
 ---
 The first project I would like to present on this blog is spam-lists ([GitHub][1]): a library for querying custom and third party web address blacklists and whitelists.

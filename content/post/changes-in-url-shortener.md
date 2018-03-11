@@ -2,8 +2,10 @@
 title: Changes in url-shortener
 date: 2016-12-04T16:09:24+00:00
 categories:
-  - Projects
+  - Development
+projects:
   - Url-shortener
+  - Spam-lists
 tags:
   - database migration
   - dependency injection
@@ -13,9 +15,7 @@ tags:
   - refactoring
   - responsive web design
   - single responsibility principle
-  - spam-lists
   - sqlalchemy
-  - url-shortener
   - wtforms
 
 ---

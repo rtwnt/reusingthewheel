@@ -2,12 +2,12 @@
 title: The first stable release of spam-lists
 date: 2016-11-30T10:44:41+00:00
 categories:
-  - Projects
+  - Development
+projects:
   - Spam-lists
 tags:
   - python 2
   - python 3
-  - spam-lists
 
 ---
 I released the first stable version of spam-lists. It can be downloaded from [github][1] or [PyPI][2].

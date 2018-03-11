@@ -2,12 +2,12 @@
 title: Progress in development of spam-lists
 date: 2016-07-09T19:19:49+00:00
 categories:
-  - Projects
+  - Development
+projects:
   - Spam-lists
 tags:
   - python 2
   - python 3
-  - spam-lists
 
 ---
 Since the introduction of my spam-lists library on this blog, I made some progress in its development.
