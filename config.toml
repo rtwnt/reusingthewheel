@@ -23,3 +23,8 @@ googleAnalytics = "UA-109495807-1"
     tags = true
     social_github = "piotr-rusin"
     social_email = "piotr.rusin88@gmail.com"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    project = "projects"
