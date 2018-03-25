@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+<main class="main-content list content" role="main">
+  <article class="post">
+    {{- with .Title }}
+    <header class="post__header clearfix">
+      <h1 class="post__title">{{ . }}</h1>
+    </header>
+    {{- end }}
+    <div class="post__content clearfix">
+      {{ .Content }}
+      {{- range .Paginator.Pages.ByDate.Reverse }}
+        {{- .Render "project_summary" }}
+      {{- end }}
+    </div>
+    {{ partial "pagination.html" . }}
+  </article>
+</main>
+
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}
+
