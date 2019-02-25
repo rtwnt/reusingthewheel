@@ -1,0 +1,11 @@
+{{ $taxo := "projects" }}
+{{ with .Param $taxo }}
+    <br>
+    Project{{ if gt (len .) 1 }}s{{ end }}:
+    {{ range $index, $project := . }}
+        {{- if gt $index 0 }}, {{ end -}}
+        {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($project | urlize)) -}}
+            <a href="{{ .Permalink }}">{{ $project }}</a>
+        {{- end -}}
+    {{- end -}}
+{{ end }}
