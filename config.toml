@@ -5,6 +5,9 @@ theme = "rtw"
 disqusShortname = "piotr-rusin-github-io"
 googleAnalytics = "UA-109495807-1"
 
+pygmentsCodefences = true
+pygmentsStyle = "borland"
+
 [permalinks]
   post = "/:year/:month/:title/"
 
