@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/piotr-rusin/piotr-rusin.github.io.git
 	branch = master
+[submodule "themes/rtw"]
+	path = themes/rtw
+	url = https://github.com/piotr-rusin/rtw-theme.git
