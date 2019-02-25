@@ -1,22 +1,20 @@
 {{ partial "header.html" . }}
 
-<main class="main-content list content" role="main">
-  <article class="post">
-    {{- with .Title }}
-    <header class="post__header clearfix">
-      <h1 class="post__title">{{ . }}</h1>
-    </header>
-    {{- end }}
-    <div class="post__content clearfix">
-      {{ .Content }}
-      {{- range .Paginator.Pages.ByDate.Reverse }}
-        {{- .Render "project_summary" }}
-      {{- end }}
-    </div>
-    {{ partial "pagination.html" . }}
-  </article>
-</main>
+<h1>{{ .Title | markdownify }}</h1>
 
-{{ partial "sidebar.html" . }}
+{{ .Content }}
+
+<ul class="terms">
+    {{ range .Pages }}
+        <li>
+            <a href="{{ .Params.source }}">{{ .Title }}</a>
+            <a href={{ .Permalink }}>({{ len .Pages }} posts)</a>
+            {{ if .Params.summary }}
+            - {{ .Params.summary }}
+            {{ end }}
+        </li>
+    {{ end }}
+</ul>
+
+
 {{ partial "footer.html" . }}
-
