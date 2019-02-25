@@ -58,8 +58,7 @@ As mentioned on its website, the library provides an [SLF4J][16] implementation 
 
 Unfortunately, it didn&#8217;t work, at least not when I was executing tests with Eclipse by using _Run As > JUnit_ Test run configuration. The following warning appeared:
 
-{{< highlight text >}}
-
+```text
 SLF4J: Class path contains multiple SLF4J bindings.
 SLF4J: Found binding in
 [jar:file:(&#8230;)/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
@@ -69,15 +68,13 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings
 for an explanation.
 SLF4J: Actual binding is of type
 [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
-
-{{</ highlight >}}
+```
 
 Not only more than one logger was found on the classpath, but also Logback (provided by spring-boot-starter dependency) was chosen as the default implementation. As a result, the tests didn&#8217;t pass. I managed to fix that by moving declaration of SLF4J Test dependency above that of the starter providing Logback, so that it would be analyzed as the first SLF4J implementation and this way used as an actual implementation during tests. Now the unit tests for `AutoPublicationTask` passed, but I still had to deal with both logger implementations being detected.
 
 Moreover, when I executed all tests, a more serious problem was revealed. Due to the presence of multiple loggers on the classpath during testing, the application context couldn&#8217;t be loaded. As a result, integration tests couldn&#8217;t be executed. They failed with the following error:
 
-{{< highlight text >}}
-
+```text
 java.lang.IllegalStateException: Failed to load ApplicationContext
 (&#8230;)
 Caused by: java.lang.IllegalArgumentException:
@@ -88,8 +85,7 @@ loaded from file:(&#8230;)/uk/org/lidalia/slf4j-test/1.2.0/slf4j-test-1.2.0.jar)
 If you are using WebLogic you will need to add 'org.slf4j' to
 prefer-application-packages in WEB-INF/weblogic.xml:
 uk.org.lidalia.slf4jtest.TestLoggerFactory
-
-{{</ highlight >}}
+```
 
 Since it seemed Eclipse was simply ignoring the exclusion rule specified for Surefire plugin, I started googling for others having this problem and for a possible solution. It didn&#8217;t take long until I found [a post][18] in which someone reported having a similar problem, but with IntelliJ IDEA. The poster mentioned dependency exclusions being ignored by his IDE, but working properly when they ran tests by executing `mvn test` command.
 
@@ -99,15 +95,13 @@ I also tried another run configuration provided by Eclipse: _Run As > Maven test
 
 Although using alternative run configuration or directly calling `mvn test` fixed the dependency exclusion being ignored, the integration tests were still failing, now with the following error:
 
-{{< highlight text >}}
-
+```text
 java.lang.NoClassDefFoundError:
 ch/qos/logback/classic/joran/JoranConfigurator
 (&#8230;)
 Caused by: java.lang.ClassNotFoundException:
 ch.qos.logback.classic.joran.JoranConfigurator
-
-{{</ highlight >}}
+```
 
 Instead of trying to make SLF4J Test work for me, I decided to drop it and try the SLF4JTesting library instead. It doesn&#8217;t require any special configuration and doesn&#8217;t interfere with a production logger on the classpath. I chose to use it in combination with [Mockito][19], which I was already using for some unit tests for `AutoPublicationTask`.
 
