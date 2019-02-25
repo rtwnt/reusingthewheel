@@ -9,7 +9,7 @@ pygmentsCodefences = true
 pygmentsStyle = "borland"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  posts = "/posts/:year-:month-:day-:title/"
 
 [[menu.main]]
     name = "Posts"
