@@ -1,5 +1,5 @@
 ---
-title: URL Shortener
+title: url-shortener
 date: 2016-08-05T13:18:43+00:00
 source: https://github.com/piotr-rusin/url-shortener
 summary: a URL shortener with spam-protection mechanisms

@@ -4,15 +4,15 @@ date: 2017-11-02T09:22:29+00:00
 categories:
   - Development
 projects:
-  - Base16-theme-switcher
+  - base16-theme-switcher
 tags:
-  - api
-  - bash
+  - API
+  - Bash
   - configuration
-  - linux
+  - Linux
   - plugin system
   - plugins
-  - python 3
+  - Python
 
 ---
 I&#8217;ve been working on a plugin system for my [theme switcher project][1], and I think now it&#8217;s the time to introduce it here and describe my rationale behind its design.

@@ -4,19 +4,19 @@ date: 2016-12-04T16:09:24+00:00
 categories:
   - Development
 projects:
-  - Url-shortener
-  - Spam-lists
+  - url-shortener
+  - spam-lists
 tags:
   - database migration
   - dependency injection
   - front-end
-  - injector
-  - python 3
+  - Injector
+  - Python
   - refactoring
   - responsive web design
   - single responsibility principle
-  - sqlalchemy
-  - wtforms
+  - SQLAlchemy
+  - WTForms
 
 ---
 [When I introduced my URL shortener project][1], I already had a working version and I thought I only needed to improve its front-end to be able to release the first stable version of the application. I also had some ideas for new features to be added to it.

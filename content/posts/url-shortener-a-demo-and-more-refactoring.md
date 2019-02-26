@@ -4,10 +4,10 @@ date: 2016-12-31T16:13:22+00:00
 categories:
   - Development
 projects:
-  - Url-shortener
+  - url-shortener
 tags:
-  - python 3
-  - refactoring
+  - Python
+  - Refactoring
   - single responsibility principle
 
 ---

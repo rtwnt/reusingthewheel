@@ -8,10 +8,10 @@ projects:
 tags:
   - dependency injection
   - integration testing
-  - java
-  - jpa
-  - maven
-  - spring
+  - Java
+  - JPA
+  - Maven
+  - Spring
   - testing
   - unit testing
 

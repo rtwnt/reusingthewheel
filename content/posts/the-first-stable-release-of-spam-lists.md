@@ -4,10 +4,9 @@ date: 2016-11-30T10:44:41+00:00
 categories:
   - Development
 projects:
-  - Spam-lists
+  - spam-lists
 tags:
-  - python 2
-  - python 3
+  - Python
 
 ---
 I released the first stable version of spam-lists. It can be downloaded from [github][1] or [PyPI][2].

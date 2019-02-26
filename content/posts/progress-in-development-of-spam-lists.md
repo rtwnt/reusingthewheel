@@ -4,10 +4,9 @@ date: 2016-07-09T19:19:49+00:00
 categories:
   - Development
 projects:
-  - Spam-lists
+  - spam-lists
 tags:
-  - python 2
-  - python 3
+  - Python
 
 ---
 Since the introduction of my spam-lists library on this blog, I made some progress in its development.
