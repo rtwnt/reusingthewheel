@@ -53,7 +53,7 @@ The instances of the class represented alias alphabets used for generating alias
  [7]: https://docs.python.org/3/library/stdtypes.html#str.translate
  [8]: https://github.com/piotr-rusin/url-shortener/blob/ee506ab166d3a170ee8790d33f20cf1ee88205a5/url_shortener/domain_and_persistence.py#L125
  [9]: https://github.com/piotr-rusin/url-shortener/blob/ee506ab166d3a170ee8790d33f20cf1ee88205a5/url_shortener/domain_and_persistence.py#L170
- [10]: /2016/12/changes-in-url-shortener/
+ [10]: {{< relref "changes-in-url-shortener.md" >}}
  [11]: https://github.com/piotr-rusin/url-shortener/blob/ee506ab166d3a170ee8790d33f20cf1ee88205a5/url_shortener/domain_and_persistence.py#L35
  [12]: https://github.com/piotr-rusin/url-shortener/blob/0207eb20d118df9cf4139f55d9f0a9c8c0fa5b76/url_shortener/domain_and_persistence.py#L76
  [13]: https://github.com/piotr-rusin/url-shortener/blob/0207eb20d118df9cf4139f55d9f0a9c8c0fa5b76/url_shortener/domain_and_persistence.py#L118

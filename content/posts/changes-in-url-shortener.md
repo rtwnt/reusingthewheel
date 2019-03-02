@@ -111,7 +111,7 @@ I replaced blacklist file with a simpler approach to storage: a host blacklist s
 
 I added a whitelist for hosts known to be safe. URLs with such hosts won&#8217;t be tested against the custom and third-party blacklists.
 
- [1]: /2016/08/introducing-my-url-shortener/
+ [1]: {{< relref "introducing-my-url-shortener.md" >}}
  [2]: http://i.imgur.com/RuRBETe.png
  [3]: http://i.imgur.com/P6xYoWF.png
  [4]: http://imgur.com/a/mCU4E

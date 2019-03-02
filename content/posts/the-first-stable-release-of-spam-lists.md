@@ -15,6 +15,6 @@ In comparison to the version described in [this post][3], the stable version con
 
  [1]: https://github.com/piotr-rusin/spam-lists/releases
  [2]: https://pypi.python.org/pypi/spam-lists
- [3]: /2016/07/progress-in-development-of-spam-lists/
+ [3]: {{< relref "progress-in-development-of-spam-lists.md" >}}
  [4]: http://choosealicense.com/licenses/apache-2.0/
  [5]: http://choosealicense.com/licenses/mit/
