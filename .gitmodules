@@ -8,3 +8,6 @@
 [submodule "themes/rtw"]
 	path = themes/rtw
 	url = https://github.com/piotr-rusin/rtw-theme.git
+[submodule "themes/hello-rtw"]
+	path = themes/hello-rtw
+	url = https://github.com/piotr-rusin/hello-rtw.git
