@@ -1,13 +1,7 @@
-[submodule "themes/mainroad"]
-	path = themes/mainroad
-	url = https://github.com/Vimux/Mainroad.git
 [submodule "public"]
 	path = public
 	url = https://github.com/piotr-rusin/piotr-rusin.github.io.git
 	branch = master
-[submodule "themes/rtw"]
-	path = themes/rtw
-	url = https://github.com/piotr-rusin/rtw-theme.git
 [submodule "themes/hello-rtw"]
 	path = themes/hello-rtw
 	url = https://github.com/piotr-rusin/hello-rtw.git
