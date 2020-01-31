@@ -14,11 +14,30 @@ pygmentsStyle = "borland"
 [menu]
   # Header
   [[menu.left]]
-    url = "/"
-    name = "home"
+    url = "/tags/java"
+    name = "Java"
+    weight = 2
+  [[menu.left]]
+    url = "/tags/python"
+    name = "Python"
+    weight = 3
+  [[menu.left]]
+    url = "/tags/spring"
+    name = "Spring"
+    weight = 4
+  [[menu.left]]
+    url = "/tags/"
+    name = "More..."
+    weight = 5
   [[menu.right]]
     url = "/about/"
     name = "about"
+  [[menu.right]]
+    url = "mailto:piotr.rusin88@gmail.com"
+    name = "Contact"
+  [[menu.right]]
+    url = "https://github.com/piotr-rusin"
+    name = "Github"
 
 [Params]
     readmore = true
