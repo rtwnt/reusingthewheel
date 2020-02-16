@@ -12,32 +12,17 @@ pygmentsStyle = "borland"
   posts = "/posts/:year-:month-:day-:filename/"
 
 [menu]
-  # Header
-  [[menu.left]]
-    url = "/tags/java"
-    name = "Java"
-    weight = 2
-  [[menu.left]]
-    url = "/tags/python"
-    name = "Python"
-    weight = 3
-  [[menu.left]]
-    url = "/tags/spring"
-    name = "Spring"
-    weight = 4
-  [[menu.left]]
-    url = "/tags/"
-    name = "More..."
+  [[menu.main]]
+    url = "/categories/"
+    name = "Categories"
     weight = 5
-  [[menu.right]]
+  [[menu.main]]
+    url = "/tags/"
+    name = "Tags"
+    weight = 5
+  [[menu.main]]
     url = "/about/"
-    name = "about"
-  [[menu.right]]
-    url = "mailto:piotr.rusin88@gmail.com"
-    name = "Contact"
-  [[menu.right]]
-    url = "https://github.com/piotr-rusin"
-    name = "Github"
+    name = "About"
 
 [Params]
     readmore = true
