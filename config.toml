@@ -26,7 +26,7 @@ pygmentsStyle = "borland"
 
 [Params]
     readmore = true
-    homeLinkText = "RTW"
+    homeLinkText = "Reusing the wheel"
 
 [Params.widgets]
     recent_articles = true
