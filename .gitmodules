@@ -11,3 +11,6 @@
 [submodule "themes/hugo-coder-rtw"]
 	path = themes/hugo-coder-rtw
 	url = https://github.com/piotr-rusin/hugo-coder-rtw.git
+[submodule "themes/rtw-2020"]
+	path = themes/rtw-2020
+	url = https://github.com/piotr-rusin/rtw-2020.git
