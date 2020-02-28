@@ -5,15 +5,6 @@ categories:
   - Development
 projects:
   - Yule
-tags:
-  - dependency injection
-  - integration testing
-  - Java
-  - JPA
-  - Maven
-  - Spring
-  - testing
-  - unit testing
 
 ---
 Since my [introductory post on Yule][1], I&#8217;ve been doing some work on the project. I&#8217;ve implemented an automatic article publication feature as a part of service layer and I added some methods used by it to the repository layer of my project.

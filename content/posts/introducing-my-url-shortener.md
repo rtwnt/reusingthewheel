@@ -6,11 +6,6 @@ categories:
 projects:
   - url-shortener
   - spam-lists
-tags:
-  - Flask
-  - Python
-  - SQLAlchemy
-  - WTForms
 
 ---
 URL addresses can be quite long, mainly because they often consist of path and query components, both containing a number of characters forming names of path segments and values of parameters (not necessarily meaningful to a human reader), or performing other functions. For that reason, they may be hard to type and memorize, or simply aesthetically unpleasing.

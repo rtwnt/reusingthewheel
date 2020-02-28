@@ -5,8 +5,6 @@ categories:
   - Development
 projects:
   - spam-lists
-tags:
-  - Python
 
 ---
 Since the introduction of my spam-lists library on this blog, I made some progress in its development.

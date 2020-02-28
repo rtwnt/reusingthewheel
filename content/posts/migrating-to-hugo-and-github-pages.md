@@ -3,12 +3,6 @@ title: Migrating to Hugo and GitHub Pages
 date: 2017-11-12T16:43:40+01:00
 categories:
   - Blog
-tags:
-  - Disqus
-  - Hugo
-  - Jekyll
-  - Pelican
-  - static website generator
 ---
 
 I wanted to have greater control over my blog, so I've been thinking about moving it to a self-hosted WordPress installation. In the end, I decided to migrate from WordPress to a static blog generated with [Hugo][1] and hosted on [GitHub Pages][2]. This post will be the last one posted on [reusingthewheel.wordpress.com][3] - the future ones will be posted on [piotr-rusin.github.io][4].

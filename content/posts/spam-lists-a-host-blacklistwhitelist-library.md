@@ -5,8 +5,6 @@ categories:
   - Development
 projects:
   - spam-lists
-tags:
-  - Python
 
 ---
 The first project I would like to present on this blog is spam-lists ([GitHub][1]): a library for querying custom and third party web address blacklists and whitelists.

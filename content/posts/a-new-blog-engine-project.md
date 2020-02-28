@@ -6,13 +6,6 @@ categories:
 projects:
   - Yule
   - Blog Engine
-tags:
-  - blog engine
-  - Hibernate
-  - Java
-  - Java Bean Validation
-  - JPA
-  - Spring
 
 ---
 In [one of my previous posts][1] I described a blog engine I was developing. At the time, I had returned to it after a hiatus and I was convinced I would continue working on it. However, at the same time I was still more interested in developing my python-based [url-shortener project][2] and I also already planned moving on to other projects and technologies. As a result, I got bored of blog-engine again.
@@ -62,7 +55,7 @@ The validator class is used by my custom constraint annotation: [`StatusConstrai
 I think that&#8217;s enough for this post. In the next one, I will describe the service layer of the project.
 
  [1]: {{< relref "a-php-symfony-blog-engine.md" >}}
- [2]: {{< relref "projects/url-shortener" >}}
+ [2]: {{< ref "/projects/url-shortener" >}}
  [3]: https://projects.spring.io/spring-framework/
  [4]: http://projects.spring.io/spring-boot/
  [5]: http://stackoverflow.com/a/35996408

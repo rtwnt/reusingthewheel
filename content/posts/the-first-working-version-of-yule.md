@@ -5,10 +5,6 @@ categories:
   - Development
 projects:
   - Yule
-tags:
-  - Java
-  - Maven
-  - Spring
 
 ---
 I recently made some progress on Yule &#8211; my Spring Boot-based blog engine project &#8211; and now I have its first working version. The current features, installation, configuration and how to run the engine are all described in the README file in [the repository of the project][1], so I won&#8217;t be covering them here.

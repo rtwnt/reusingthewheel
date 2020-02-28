@@ -5,15 +5,6 @@ categories:
   - Development
 projects:
   - Yule
-tags:
-  - Java
-  - testing
-  - Spring
-  - front end
-  - back end
-  - JavaScript
-  - CSS
-  - Bootstrap
 
 ---
 I recently went back to developing [Yule][1] - my blog engine project based, among others, on [the Spring Boot framework][2]. I made some progress in both its front end and back end, and I would like to sum it up in this note
@@ -40,7 +31,7 @@ The current version is far from being final, so I’m going to improve its front
 
 Before that, though, I’m going to refactor unit tests and improve their code coverage. Before the new services were added and calls to their methods replaced much of the code in controllers, the tests covered 45.5% of the code (according to reports generated with [EclEmma][9]). Now they cover 69.3%, so although it’s better, there is still some room for improvements. For example, there are no tests for controllers and there are some execution paths in tested methods not covered by tests.
 
-[1]: {{< relref "projects/yule" >}}
+[1]: {{< ref "/projects/yule" >}}
 [2]: https://projects.spring.io/spring-boot/
 [3]: https://getbootstrap.com/
 [4]: https://github.com/jpenren/thymeleaf-spring-data-dialect

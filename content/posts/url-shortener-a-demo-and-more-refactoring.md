@@ -5,10 +5,6 @@ categories:
   - Development
 projects:
   - url-shortener
-tags:
-  - Python
-  - Refactoring
-  - single responsibility principle
 
 ---
 A demo instance of my url-shortener project is now available here:
