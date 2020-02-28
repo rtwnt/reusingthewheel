@@ -5,3 +5,6 @@
 [submodule "themes/rtw-2020"]
 	path = themes/rtw-2020
 	url = https://github.com/piotr-rusin/rtw-2020.git
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git
