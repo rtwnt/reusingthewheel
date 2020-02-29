@@ -17,10 +17,6 @@ pygmentsStyle = "borland"
     name = "Categories"
     weight = 5
   [[menu.main]]
-    url = "/tags/"
-    name = "Tags"
-    weight = 5
-  [[menu.main]]
     url = "/about/"
     name = "About"
 
