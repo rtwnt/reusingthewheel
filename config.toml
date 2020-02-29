@@ -38,6 +38,5 @@ pygmentsStyle = "borland"
     social_email = "piotr.rusin88@gmail.com"
 
 [taxonomies]
-    tag = "tags"
     category = "categories"
     project = "projects"
