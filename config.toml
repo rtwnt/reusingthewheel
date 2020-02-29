@@ -25,6 +25,7 @@ pygmentsStyle = "borland"
     name = "About"
 
 [Params]
+  description = "A blog about programming"
     readmore = true
     homeLinkText = "Reusing the wheel"
 
