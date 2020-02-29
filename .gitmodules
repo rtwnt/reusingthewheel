@@ -8,3 +8,6 @@
 [submodule "themes/hyde"]
 	path = themes/hyde
 	url = https://github.com/spf13/hyde.git
+[submodule "themes/laynon"]
+	path = themes/laynon
+	url = https://github.com/tummychow/lanyon-hugo.git
