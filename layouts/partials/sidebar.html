@@ -11,7 +11,7 @@
         {{- end }} on
       </ul>
       </p>
-      {{ else if eq .Type "categories" }}
+      {{ else if and (eq .Type "categories") (eq .Kind "taxonomy") }}
       <p class="lead">
         Posted in <a href="{{ .Permalink }}">"{{ .Title }}"</a> on
       </p>
