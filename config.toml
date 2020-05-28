@@ -1,4 +1,4 @@
-baseURL = "https://piotr-rusin.github.io/"
+baseURL = "https://reusingthewheel.net/"
 languageCode = "en-us"
 title = "Reusing the wheel"
 theme = "hyde"
