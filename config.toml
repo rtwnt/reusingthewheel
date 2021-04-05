@@ -1,7 +1,7 @@
 baseURL = "https://reusingthewheel.net/"
 languageCode = "en-us"
 title = "Reusing the wheel"
-theme = "blank"
+theme = "bootstrap4-blog"
 # disqusShortname = "piotr-rusin-github-io"
 googleAnalytics = "UA-109495807-1"
 
