@@ -12,11 +12,11 @@ pygmentsStyle = "borland"
   posts = "/posts/:year-:month-:day-:filename/"
 
 [menu]
-  [[menu.main]]
+  [[menu.navbar]]
     url = "/categories/"
     name = "Categories"
     weight = 5
-  [[menu.main]]
+  [[menu.navbar]]
     url = "/about/"
     name = "About"
 
