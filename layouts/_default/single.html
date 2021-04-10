@@ -6,11 +6,11 @@
 			<div>
 				{{ .Content }}
 			</div>
-			{{ with .Params.tags }}
+			{{ with .Params.categories }}
 			<div>
 				<ul id="tags">
 					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					<li><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
