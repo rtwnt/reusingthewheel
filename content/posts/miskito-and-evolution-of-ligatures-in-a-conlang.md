@@ -1,6 +1,6 @@
 ---
 title: Miskito and evolution of ligatures in my conlangs
-date: 2021-04-08T20:00:00+02:00
+date: 2021-04-08T18:00:00+02:00
 categories:
   - Linguistics
   - Conlangs
@@ -14,7 +14,7 @@ I've recently read about [Miskito language][1] of Central America, and one of it
 
 ## Ligature (or ezāfe) in Miskito and other languages
 
-In short, ligatures/linkers/ezāfe are particles, clitics or suffixes used to connect nouns and their modifiers. They occur in Persian (and related languages), Albanian, Autronesian and some other languages.
+In short, ligatures/linkers/ezāfe are particles, clitics or suffixes used to connect nouns and their modifiers. They occur in Persian (and related languages), Albanian, Austronesian and some other languages.
 
 Examples of ligatures (not all inflections are always included in the gloss, but the relevant ones are). Miskito example comes from [this article about Miskito language][1], while other examples come from [this article about ezāfe][2]
 
@@ -92,9 +92,16 @@ I'm not sure yet, but I think it could be possible for the verbal forms in such 
 
 Also, if verbs in relative clauses displayed verbal characteristics, then why wouldn't it be the case also with adjectives? They would be more verb-like, sharing at least some inflectional categories with predicative verbs.
 
-## Construct state and interactions with it
+## Separate possessed form and its evolution
 
-In Semitic (and some other languages of the Afro-Asiatic family) there is a form called [construct state][4]. It's quite similar to ligature, to the point of the ligature in Miskito having been originally called "construct state" - [misleadingly, according to wikipedia article about Miskito][1]. I'm not sure myself if those structures are different enough for one language to include both, especially since the examples I found seem to idicate ligature is cross-linguistically often used for expressing possessive relationship between nouns. On the other hand, I've found some examples of Austronesian languages with more than one ligature, each used with different constructions. Also, considering how there are more languages that conflate adjectives with relative clauses while differentiating genitives than languages that conflate all three, and considering how different ligatures may originate from different constructions in the proto-language, having a language with two ligature-like constructions doesn't seem like too much of a stretch. So, ultimately I think it would be interesting to include construct state (or an adposition that would grammaticalize to a construct state suffix) in the proto-language and explore its evolution throughout the whole language family, and have it interact with the ligature in various ways.
+All of the languages, for which I included examples of their ligatures, use them also for forming possessive constructions. It reminds me of [construct state][4] - a form occuring in some Semitic and Other Afro-Asiatic languages. It's a suffix occuring on the possessed noun in possessive noun phrases - just like ligature is suffixed to a possessed noun in Persian and Miskito. I've also read about similar expressions of possessive marking in other languages (for example, [at least some Cariban languages][6]).
+
+Would it be naturalistic for my language to have two separate ligature suffixes - one for combining nouns with adjectives (and, perhaps, verbs), and another one for combining possessed nouns with possessors? I can't recall I have ever read about a language that would have such separate, non-zero ligature markers for those two categories. However:
+
+* I could see how such two seprate markers - a possessive and adjectival ligature - could originate from different sources in one language
+* there are languages that express adjectives and relative clauses in one way, while expressing genitives in a different way - and there is more of them than of languages that express all three parts of speech in the same way
+
+So, I think having a language with two ligature-like constructions doesn't seem like too much of a stretch. I could include construct state (or an adposition that would grammaticalize to a construct state suffix) in the proto-language and explore its evolution throughout the whole language family, and have it interact with the ligature in various ways.
 
 ```text
 cat POSS Ala -> cat=CONSTR Ala
@@ -161,3 +168,4 @@ Ligature-free nouns could be preserved as first or second elements of compounds 
 [3]: https://wals.info/chapter/60
 [4]: https://en.wikipedia.org/wiki/Construct_state
 [5]: https://linguistics.stackexchange.com/questions/35633/what-non-austronesian-languages-have-a-linker-or-ligature
+[6]: https://en.wikipedia.org/wiki/Possessive#Possessive_and_possessed_case
