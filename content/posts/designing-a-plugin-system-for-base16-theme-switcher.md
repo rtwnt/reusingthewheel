@@ -2,7 +2,7 @@
 title: Designing a plugin system for base16-theme-switcher
 date: 2017-11-02T09:22:29+00:00
 categories:
-  - Development
+  - Python
 projects:
   - base16-theme-switcher
 

@@ -2,7 +2,7 @@
 title: Changes in url-shortener
 date: 2016-12-04T16:09:24+00:00
 categories:
-  - Development
+  - Python
 projects:
   - url-shortener
   - spam-lists
