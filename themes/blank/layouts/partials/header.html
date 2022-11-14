@@ -1,0 +1,51 @@
+<header class="mb-6">
+	<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+
+			{{ if eq .Data.Singular "project" }}
+				<a class="navbar-item" href={{ .Permalink }}>Project: {{ .Title }}</a>
+				<a class="navbar-item" href={{ .Site.BaseURL }}>
+					@Reusing the wheel
+				</a>
+			{{ else if eq .Data.Singular "tag" }}
+				<a class="navbar-item" href={{ .Permalink }}>Tagged: {{ .Title }}</a>
+				<a class="navbar-item" href={{ .Site.BaseURL }}>
+					@Reusing the wheel
+				</a>
+			{{ else if eq .Data.Singular "category" }}
+				<a class="navbar-item" href={{ .Permalink }}>Categorized: {{ .Title }}</a>
+				<a class="navbar-item" href={{ .Site.BaseURL }}>
+					@Reusing the wheel
+				</a>
+			{{ else }}
+				<a class="navbar-item" href={{ .Site.BaseURL }}>
+					Reusing the wheel
+				</a>
+			{{ end }}
+
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+<!--				{{ range .Site.Menus.main }}-->
+<!--				<a class="navbar-item" href="{{ .URL | relURL }}">{{ .Name }}</a>-->
+<!--				{{ end }}-->
+			</div>
+
+			<div class="navbar-end">
+				{{ range .Site.Menus.main }}
+				<a class="navbar-item" href="{{ .URL | relURL }}">{{ .Name }}</a>
+				{{ end }}
+				<div class="navbar-item">
+					<div class="control">
+						<input class="input" type="text" placeholder="Text input">
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>

@@ -1,0 +1,23 @@
+{{ define "main" }}
+	{{ if and .Title .Content }}
+	<div>
+		{{ with .Title }}<h1 class="title is-1">{{ . }}</h1>{{ end }}
+		{{ with .Content }}<div>{{ . }}</div>{{ end }}
+	</div>
+	{{ end }}
+
+	{{ range (.Site.RegularPages.GroupByDate "January 2006")  }}
+	{{ if (where .Pages "Section" "posts") }}
+	<h2>{{ .Key }}</h2>
+	<ul class="list-group striped-list">
+		{{ range ((where .Pages "Section" "posts")) }}
+		<li class="list-group-item">
+			<a href="{{ .RelPermalink }}">
+				{{ .PublishDate.Format "Jan 02" }} : {{ .Title }}
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+	{{ end }}
+	{{ end }}
+{{ end }}
