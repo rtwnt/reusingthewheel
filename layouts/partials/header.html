@@ -1,0 +1,24 @@
+<header class="mb-5">
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item has-text-weight-semi-bold" href={{ .Site.BaseURL }}>
+				{{ .Site.Title }}
+			</a>
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+				{{ range .Site.Menus.main }}
+				<a class="navbar-item" href="{{ .URL | relURL }}">{{ .Name }}</a>
+				{{ end }}
+
+				<a class="navbar-item" href="{{ .Site.Params.github }}"><i class="fa-brands fa-github"></i></a>
+				<a class="navbar-item" href="{{ .Site.Params.contact }}"><i class="fas fa-envelope"></i></a>
+			</div>
+		</div>
+	</nav>
+</header>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+	{{ if and .Title .Content }}
+	<div>
+		{{ with .Title }}<h1 class="title is-1">{{ . }}</h1>{{ end }}
+		{{ with .Content }}<div>{{ . }}</div>{{ end }}
+	</div>
+	{{ end }}
+
+<h1> <span class="icon"><i class="fas fa-tags"></i></span> {{ .Title }}</h1>
+
+	{{ range (.Pages.GroupByDate "2006")  }}
+	{{ if (where .Pages "Section" "posts") }}
+	<h2>Posts in {{ .Key }}</h2>
+	<ul class="no-bullets">
+		{{ range ((where .Pages "Section" "posts")) }}
+		<li class="list-group-item">
+			<a href="{{ .RelPermalink }}">
+				{{ .PublishDate.Format "Jan 02" }} : {{ .Title }}
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+	{{ end }}
+	{{ end }}
+{{ end }}

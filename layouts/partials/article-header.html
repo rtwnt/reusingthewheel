@@ -1,0 +1,13 @@
+<header>
+    <h1>{{ .Title }}</h1>
+    {{ if .Date }}
+    <div class="mb-4">
+        <span class="is-size-7 mr-1"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></span>
+        <span>
+        {{ range (.GetTerms "categories") }}
+        <a class="tag is-link is-light" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+        </span>
+    </div>
+    {{ end }}
+</header>

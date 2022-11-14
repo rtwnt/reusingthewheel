@@ -1,0 +1,31 @@
+.is-max-desktop {
+    max-width: 50rem;
+}
+
+.highlight {
+    margin-bottom: 1em;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.no-line-break {
+    white-space:nowrap;
+}
