@@ -5,8 +5,22 @@ theme = "blank"
 # disqusShortname = "piotr-rusin-github-io"
 googleAnalytics = "UA-109495807-1"
 
-pygmentsCodefences = true
-pygmentsStyle = "friendly"
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+
 
 [permalinks]
   posts = "/posts/:year-:month-:day-:filename/"
