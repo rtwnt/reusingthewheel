@@ -26,13 +26,13 @@ googleAnalytics = "UA-109495807-1"
   posts = "/posts/:year-:month-:day-:filename/"
 
 [menu]
-  [[menu.navbar]]
+  [[menu.main]]
     url = "/categories/"
     name = "Categories"
     weight = 5
-  [[menu.navbar]]
-    url = "/about/"
-    name = "About"
+  [[menu.main]]
+      url = "/categories/java"
+      name = "Java"
 
 [Params]
   description = "A blog about programming"
