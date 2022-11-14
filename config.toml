@@ -39,7 +39,7 @@ googleAnalytics = "UA-109495807-1"
   readmore = true
   homeLinkText = "Reusing the wheel"
   github = "https://github.com/rtwnt"
-  contact = "contact@reusingthewheel.net"
+  contact = "mailto:contact@reusingthewheel.net"
 
 [Params.widgets]
     recent_articles = true
